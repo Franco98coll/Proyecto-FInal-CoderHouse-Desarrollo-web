@@ -1,0 +1,558 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: #977b7b;
+}
+.navbar-nav{
+    height: 70px;
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    width: 120px;
+}
+.offcanvas{
+    background-color: #977b7b;
+    height: 100vh;
+    width: 200px;
+    left: 0;
+}
+.primero{
+    margin-left: -35px;
+}
+li{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+li:hover{
+    scale: 1.2;
+}
+ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+}
+#search-form {
+    float: right;
+    
+}
+#search-form.show {
+    display: block;
+}
+header svg{
+    color: #fff;
+}
+#search-icon{
+    color: black;
+    background-color: #6b4c53;
+    margin-bottom: 10px;
+    border:none;
+    display: none;
+}
+#search-icon:hover{
+    scale: 1.2;
+}
+.bi-cart{
+    margin-top: 5px;
+    color: #fff;
+    margin-right: -205px;
+    float: right;
+    margin-bottom: 20px;
+}
+.bi-cart:hover{
+    scale: 1.2;
+}
+.bi-person{
+    margin-top: -70px;
+    color: #fff;
+    margin-right: -210px;
+    float: right;
+    margin-bottom: 20px;
+}
+.bi-person:hover{
+    scale: 1.2;
+}
+
+#form{
+    width: 700px;
+    border-radius: 20px;
+    background-color: #E0E0E0;
+}
+#boton{
+    background-color: #977b7b;
+    border: none;
+}
+.boton-nav{
+    display: none;
+}
+#boton:hover{
+    scale: 1.2;
+}
+.bi-cart4{
+    margin-right: 10px;
+    float: right;
+}
+.iconos{
+    
+    float: right ;
+}
+.linea{
+    background-color: rgb(94, 13, 13);
+    height: 10px;
+    width: 98.9vw;
+}
+
+
+
+/* ---------------------------- Carrusel---------------------------- */
+
+
+.carousel{
+    margin-left: -0.78rem;
+    padding: 0;
+    height: 300px;
+    width: 98.9vw;
+}
+
+.carousel img{
+    height: 300px;
+    object-fit: cover;
+}
+.slogan{
+    position: relative;
+    top: -50%;
+    left: 0%;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    cursor: default;
+}
+
+/* -------------------- Mejores Productos-------------------- */
+.subtitulo-carrusel{
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    color:#333;
+    font-size:30px;
+    font-weight: 800;
+    text-align:center;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.owl-carousel .item {
+    margin: 0 10px;
+}
+
+.owl-carousel .item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.owl-carousel .item p {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* -------------------------- PROMO --------------------------*/
+
+.promo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #5e0d0d ;
+}
+.promo h3{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.h3-promo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* -------------------------- Marcas--------------------------*/
+
+.subtitulo-marcas{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color:#333;
+    font-size:30px;
+    font-weight: 800;
+    text-align:center;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#iron{
+    margin: 0 3rem 3rem 3rem;
+    width: 200px;
+}
+#g2{
+    margin: 0 3rem 3rem 3rem;
+    width: 100px;
+}
+#river{
+    margin: 0 3rem 3rem 3rem;
+    width: 150px;
+}
+#barca{
+    margin: 0 3rem 3rem 3rem;
+    height: 110px;
+}
+#kru{
+    margin: 0 3rem 3rem 3rem;
+    width: 100px;
+}
+
+/* -------------------------- Redes--------------------------*/
+
+#redes{
+    background-color: #5e0d0d ;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#redes svg{
+    margin: 0 3rem 0 3rem;
+}
+#redes svg:hover{
+    scale: 1.2;
+}
+
+/* -------------------------- PreFooter--------------------------*/
+
+.prefooter{
+    background-color: #977b7b;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 0 0;
+}
+.prefooter a{
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+.prefooter a:hover{
+    scale: 1.2;
+}
+.margen-pf{
+    margin-bottom: 3rem;
+}
+
+/* -------------------------- Footer-------------------------- */
+footer{
+    background-color: #5e0d0d;
+    color: #ffffff;
+}
+
+.alinear-footer{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ============================PAGINA DE PRODUCTO============================ */
+.direcciones{
+    display: flex;
+}
+.direcciones .home{
+    text-decoration: none;
+    color: #333;
+}
+.direcciones .dir {
+    text-decoration: none;
+}
+.fotos-costado img{
+    width: 200px;
+    margin: 2rem 0 0 1rem;
+}
+.foto-principal img{
+    width: 650px;
+    margin: 3rem 0 0 -5rem;
+}
+.descripciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 -3rem;
+}
+.descripciones h4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.descripciones p{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    
+}
+.colores{
+    display: flex;
+    justify-content: center;
+}
+.rojo{
+    margin: 0 0.5rem 0 0.5rem;
+    border: solid 1px #333;
+    background-color: red;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+}
+.azul{
+    margin: 0 0.5rem 0 0.5rem;
+    border: solid 1px #333;
+    background-color: #2f00ff;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+}
+.negro{
+    margin: 0 0.5rem 0 0.5rem;
+    border: solid 1px #333;
+    background-color: #000000;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+}
+.blanco{
+    margin: 0 0.5rem 0 0.5rem;
+    border: solid 1px #333;
+    background-color: #ffffff;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+}
+.desplegable{
+    margin: 2rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.btn-talles{
+    background-color: #5e0d0d;
+}
+
+.desplegable .dropdown .dropdown-menu .dropdown-item{
+    font-size: 15px;
+}
+.precio{
+    display: flex;
+    text-align: center;
+}
+.precio h5{
+    color: #333;
+    font-weight: 400;
+    font-size: 40px;
+    display: flex;
+    margin: 2rem 0 0 1rem;
+}
+.precio p{
+    margin: 2.3rem 0 0 1rem;
+    color: #5e0d0d;
+}
+.btn-comprar{
+    margin: 2rem 0 0.5rem 0;
+    color: #ffffff;
+    padding: 20px 0;
+    background-color: #5e0d0d;
+    border: none;
+    border-radius: 10px;
+}
+.btn-aac{
+    margin: 0 0 0.5rem 0;
+    color: #ffffff;
+    padding: 20px 0;
+    background-color: #6b4c53;
+    border: none;
+    border-radius: 10px;
+}
+@media only screen and (max-width:767px){
+    #form{
+        width: 150px;
+        border-radius: 20px;
+        background-color: #E0E0E0;
+    }
+    #search-icon{
+        display: block;
+        background-color: #977b7b;
+    }
+    #search-icon::content{
+        display:none;
+    }
+    .primero{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .iconos{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bi-cart{
+        margin-top: 20px;
+        margin-right: 85px;
+        margin-bottom: 20px;
+    }
+    .bi-person{
+        margin-top: 0px;
+        margin-right: 85px;
+        margin-bottom: 20px;
+    }
+    #search-form {
+        margin-top: 170px;
+        float: right;
+    }
+    .linea{
+        background-color: rgb(94, 13, 13);
+        height: 10px;
+        width: 100vw;
+    }
+    .carousel{
+        margin-left: -0.78rem;
+        padding: 0;
+        height: 300px;
+        width: 100vw;
+    }
+    .owl-carousel .item {
+        margin: 0;
+        }
+    
+    .h3-promo h3{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #redes svg{
+        margin: 0 1rem 0 1rem;
+    }
+    .prefooter .container-fluid .row .col-sm-3{
+        background-color: #977b7b;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .margen-pf{
+        margin-bottom: 0rem;
+    }
+    .alinear-footer{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* ===================Producto=================== */
+
+    .fotos-costado{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .fotos-costado img{
+        width: 100px;
+        margin: 2rem 0 0 0.5rem;
+    }
+    .foto-principal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foto-principal img{
+        width: 340px;
+        margin: 3rem 0 0 0rem;
+    }
+    .descripciones{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .descripciones h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0 1rem 2.5em;
+    }
+    .descripciones p{
+        width: 300px;
+        margin: 0 0 1rem 4.5rem;
+    }
+    .colores{
+        display: flex;
+        justify-content: center;
+        margin: 0 0 1rem 2.5rem;
+    }
+    .btn-talles{
+        margin: 0 0 3rem 2.5rem;
+    }
+    .precio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .precio h5{
+        margin: 0rem 0 2rem 3rem;
+    }
+    .precio p{
+        margin: 0rem 0 2rem 2rem;
+    }
+    .btn-comprar{
+        margin: 0 0 1rem 2.8rem;
+    }
+    .btn-aac{
+        margin: 0 0 5rem 2.8rem;
+    }
+}
+
