@@ -1,0 +1,145 @@
+@media only screen and (max-width:767px){
+    #form{
+        width: 150px;
+        border-radius: 20px;
+        background-color: #E0E0E0;
+    }
+    #search-icon{
+        display: block;
+        background-color: #977b7b;
+    }
+    #search-icon::content{
+        display:none;
+    }
+    .primero{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .iconos{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bi-cart{
+        margin-top: 20px;
+        margin-right: 85px;
+        margin-bottom: 20px;
+    }
+    .bi-person{
+        margin-top: 0px;
+        margin-right: 85px;
+        margin-bottom: 20px;
+    }
+    #search-form {
+        margin-top: 170px;
+        float: right;
+    }
+    .linea{
+        background-color: rgb(94, 13, 13);
+        height: 10px;
+        width: 100vw;
+    }
+    .carousel{
+        margin-left: -0.78rem;
+        padding: 0;
+        height: 300px;
+        width: 100vw;
+    }
+    .owl-carousel .item {
+        margin: 0;
+        }
+    
+    .h3-promo h3{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #redes svg{
+        margin: 0 1rem 0 1rem;
+    }
+    .prefooter .container-fluid .row .col-sm-3{
+        background-color: #977b7b;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .margen-pf{
+        margin-bottom: 0rem;
+    }
+    .alinear-footer{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* ===================Producto=================== */
+
+    .fotos-costado{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .fotos-costado img{
+        width: 100px;
+        margin: 2rem 0 0 0.5rem;
+    }
+    .foto-principal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foto-principal img{
+        width: 340px;
+        margin: 3rem 0 0 0rem;
+    }
+    .descripciones{
+        display: flex;
+        justify-content: center;
+        margin: 0 0 1rem -3rem;
+    }
+    .descripciones h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0 1rem 2.5em;
+    }
+    .descripciones p{
+        width: auto;
+        margin: 0 0 1rem 2.5rem;
+    }
+    .colores{
+        display: flex;
+        justify-content: center;
+        margin: 0 0 1rem 2.5rem;
+    }
+    .btn-talles{
+        margin: 0 0 3rem 2.5rem;
+    }
+    .precio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .precio h5{
+        margin: 0rem 0 2rem 3rem;
+    }
+    .precio p{
+        margin: 0rem 0 2rem 2rem;
+    }
+    .btn-comprar{
+        margin: 0 0 1rem 2.8rem;
+    }
+    .btn-aac{
+        margin: 0 0 5rem 2.8rem;
+    }
+}

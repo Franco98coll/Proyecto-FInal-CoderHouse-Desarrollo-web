@@ -1,0 +1,34 @@
+.subtitulo-carrusel{
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    color:#333;
+    font-size:30px;
+    font-weight: 800;
+    text-align:center;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.owl-carousel .item {
+    margin: 0 10px;
+}
+
+.owl-carousel .item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.owl-carousel .item p {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.owl-carousel a{
+    text-decoration: none;
+    color: #333;
+}

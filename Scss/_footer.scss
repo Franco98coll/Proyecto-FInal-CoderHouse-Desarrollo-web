@@ -1,0 +1,37 @@
+/* -------------------------- PreFooter--------------------------*/
+
+.prefooter{
+    background-color: #977b7b;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 0 0;
+}
+.prefooter a{
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+.prefooter a:hover{
+    scale: 1.2;
+}
+.margen-pf{
+    margin-bottom: 3rem;
+}
+
+/* -------------------------- Footer-------------------------- */
+footer{
+    background-color: #5e0d0d;
+    color: #ffffff;
+}
+
+.alinear-footer{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,109 @@
+header{
+    background-color: #977b7b;
+    
+}
+.navbar-nav{
+    height: 70px;
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    width: 120px;
+}
+.offcanvas{
+    background-color: #977b7b;
+    height: 100vh;
+    width: 200px;
+    left: 0;
+}
+.primero{
+    margin-left: -35px;
+}
+li{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+li:hover{
+    scale: 1.2;
+}
+ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+}
+#search-form {
+    float: right;
+    
+}
+#search-form.show {
+    display: block;
+}
+header svg{
+    color: #fff;
+}
+#search-icon{
+    color: black;
+    background-color: #6b4c53;
+    margin-bottom: 10px;
+    border:none;
+    display: none;
+}
+#search-icon:hover{
+    scale: 1.2;
+}
+.bi-cart{
+    margin-top: 5px;
+    color: #fff;
+    margin-right: -205px;
+    float: right;
+    margin-bottom: 20px;
+}
+.bi-cart:hover{
+    scale: 1.2;
+}
+.bi-person{
+    margin-top: -70px;
+    color: #fff;
+    margin-right: -210px;
+    float: right;
+    margin-bottom: 20px;
+}
+.bi-person:hover{
+    scale: 1.2;
+}
+
+#form{
+    width: 700px;
+    border-radius: 20px;
+    background-color: #E0E0E0;
+}
+#boton{
+    background-color: #977b7b;
+    border: none;
+}
+.boton-nav{
+    display: none;
+}
+#boton:hover{
+    scale: 1.2;
+}
+.bi-cart4{
+    margin-right: 10px;
+    float: right;
+}
+.iconos{
+    
+    float: right ;
+}
+.linea{
+    background-color: rgb(94, 13, 13);
+    height: 10px;
+    width: 98.9vw;
+}
