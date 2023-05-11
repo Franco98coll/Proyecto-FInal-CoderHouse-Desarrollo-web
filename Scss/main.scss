@@ -3,17 +3,17 @@
 /*Navbar*/ 
 @import "_navbar.scss";
 /*Carrusel*/ 
-@import "_carrusel.scss";
+@import "./index/carrusel";
 /*Mejores Productos*/
-@import "_mejores-productos.scss";
+@import "./index/mejores-productos";
 /*Promocion*/
-@import "_promocion.scss";
+@import "./index/promocion";
 /*Marcas*/ 
-@import "_marcas.scss";
+@import "./index/marcas";
 /*Redes*/
-@import "_redes.scss";
+@import "./index/redes";
 /*Footer*/
-@import "_footer.scss";
+@import "./index/footer";
 
 /*Pagina de Productos*/ 
 @import "_pag-producto.scss";
