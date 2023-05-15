@@ -567,3 +567,207 @@ footer {
   border: none;
   border-radius: 10px;
 }
+
+/*Responsive*/
+@media only screen and (max-width: 767px) {
+  #form {
+    width: 150px;
+    border-radius: 20px;
+    background-color: #E0E0E0;
+  }
+  #search-icon {
+    display: block;
+    background-color: #977b7b;
+  }
+  #search-icon::content {
+    display: none;
+  }
+  .primero {
+    margin-top: 70px;
+    margin-left: 0px;
+  }
+  .iconos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .bi-cart {
+    margin-top: 20px;
+    margin-right: 85px;
+    margin-bottom: 20px;
+  }
+  .bi-person {
+    margin-top: 0px;
+    margin-right: 85px;
+    margin-bottom: 20px;
+  }
+  #search-form {
+    margin-top: 220px;
+    float: right;
+  }
+  .linea {
+    background-color: rgb(94, 13, 13);
+    height: 10px;
+    width: 100vw;
+  }
+  .carousel {
+    margin-left: -0.78rem;
+    padding: 0;
+    height: 300px;
+    width: 100vw;
+  }
+  .owl-carousel .item {
+    margin: 0;
+  }
+  .h3-promo h3 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .imagenes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #redes svg {
+    margin: 0 1rem 0 1rem;
+  }
+  .prefooter .container-fluid .row .col-sm-3 {
+    background-color: #977b7b;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .margen-pf {
+    margin-bottom: 0rem;
+  }
+  .alinear-footer {
+    margin-top: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  /* ===================Producto=================== */
+  .fotos-costado {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fotos-costado img {
+    width: 100px;
+    margin: 2rem 0 0 0.5rem;
+  }
+  .foto-principal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .foto-principal img {
+    width: 340px;
+    margin: 3rem 0 0 0rem;
+  }
+  .descripciones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 0 1rem -3rem;
+  }
+  .descripciones h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 1rem 0 1rem 2.5em;
+  }
+  .descripciones p {
+    width: auto;
+    margin: 0 0 1rem 2.5rem;
+  }
+  .colores {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 0 1rem 2.5rem;
+  }
+  .btn-talles {
+    margin: 0 0 3rem 2.5rem;
+  }
+  .precio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .precio h5 {
+    margin: 0rem 0 2rem 3rem;
+  }
+  .precio p {
+    margin: 0rem 0 2rem 2rem;
+  }
+  .btn-comprar {
+    margin: 0 0 1rem 2.8rem;
+  }
+  .btn-aac {
+    margin: 0 0 5rem 2.8rem;
+  }
+}
