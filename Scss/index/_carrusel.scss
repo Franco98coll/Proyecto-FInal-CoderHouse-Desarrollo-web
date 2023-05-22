@@ -3,20 +3,21 @@
     padding: 0;
     height: 300px;
     width: 98.9vw;
+    img{
+        height: 300px;
+        object-fit: cover;
+    }
+    .slogan{
+        position: relative;
+        top: -50%;
+        left: 0%;
+        color: #fff;
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        text-shadow: 2px 2px 4px #000000;
+        cursor: default;
+    }
 }
 
-.carousel img{
-    height: 300px;
-    object-fit: cover;
-}
-.slogan{
-    position: relative;
-    top: -50%;
-    left: 0%;
-    color: #fff;
-    font-size: 50px;
-    font-weight: 700;
-    text-align: center;
-    text-shadow: 2px 2px 4px #000000;
-    cursor: default;
-}
+

@@ -4,15 +4,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.redes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#redes svg{
-    margin: 0 3rem 0 3rem;
-}
-#redes svg:hover{
-    scale: 1.2;
+    .redes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg{
+            margin: 0 3rem 0 3rem;
+            :hover{
+                scale: 1.2;
+            }
+        }
+    }
 }

@@ -7,9 +7,9 @@
     #search-icon{
         display: block;
         background-color: #977b7b;
-    }
-    #search-icon::content{
-        display:none;
+        ::content{
+            display:none;
+        }
     }
     .primero{
         margin-top: 70px;
@@ -19,17 +19,18 @@
     .iconos{
         display: flex;
         flex-direction: column-reverse;
+        .bi-cart{
+            margin-top: 20px;
+            margin-right: 85px;
+            margin-bottom: 20px;
+        }
+        .bi-person{
+            margin-top: 0px;
+            margin-right: 85px;
+            margin-bottom: 20px;
+        }
     }
-    .bi-cart{
-        margin-top: 20px;
-        margin-right: 85px;
-        margin-bottom: 20px;
-    }
-    .bi-person{
-        margin-top: 0px;
-        margin-right: 85px;
-        margin-bottom: 20px;
-    }
+    
     #search-form {
         margin-top: 220px;
         float: right;
@@ -88,34 +89,35 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        img{
+            width: 100px;
+            margin: 2rem 0 0 0.5rem;
+        }
     }
-    .fotos-costado img{
-        width: 100px;
-        margin: 2rem 0 0 0.5rem;
-    }
+
     .foto-principal{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    .foto-principal img{
-        width: 340px;
-        margin: 3rem 0 0 0rem;
+        img{
+            width: 340px;
+            margin: 3rem 0 0 0rem;
+        }
     }
     .descripciones{
         display: flex;
         justify-content: center;
         margin: 0 0 1rem -3rem;
-    }
-    .descripciones h4{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 1rem 0 1rem 2.5em;
-    }
-    .descripciones p{
-        width: auto;
-        margin: 0 0 1rem 2.5rem;
+        h4{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem 0 1rem 2.5em;
+        }
+        p{
+            width: auto;
+            margin: 0 0 1rem 2.5rem;
+        }
     }
     .colores{
         display: flex;
@@ -129,13 +131,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        h5{
+            margin: 0rem 0 2rem 3rem;
+        }
+        p{
+            margin: 0rem 0 2rem 2rem;
+        }
     }
-    .precio h5{
-        margin: 0rem 0 2rem 3rem;
-    }
-    .precio p{
-        margin: 0rem 0 2rem 2rem;
-    }
+
     .btn-comprar{
         margin: 0 0 1rem 2.8rem;
     }

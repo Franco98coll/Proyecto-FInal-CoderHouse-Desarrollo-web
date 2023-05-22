@@ -7,28 +7,35 @@
     font-weight: 800;
     text-align:center;
 }
-
-.owl-carousel .owl-item img {
-    display: block;
-    width: 100%;
-    height: auto;
+.owl-carousel{
+    .owl-item{
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+    .item {
+        margin: 0 10px;
+        h3 {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        p {
+            margin-top: 5px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: #333;
+    }
 }
 
-.owl-carousel .item {
-    margin: 0 10px;
-}
 
-.owl-carousel .item h3 {
-    margin-top: 10px;
-    font-size: 18px;
-    font-weight: bold;
-}
-.owl-carousel .item p {
-    margin-top: 5px;
-    font-size: 14px;
-    line-height: 1.4;
-}
-.owl-carousel a{
-    text-decoration: none;
-    color: #333;
-}
+
+
+
+
