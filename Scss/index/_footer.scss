@@ -1,7 +1,7 @@
 /* -------------------------- PreFooter--------------------------*/
 
 .prefooter{
-    background-color: #977b7b;
+    background-color: #ffefb9d0;
     .columna{
         display: flex;
         flex-direction: column;
@@ -12,14 +12,14 @@
     a{
         font-size: 15px;
         font-weight: 400;
-        color: #ffffff;
+        color: #000;
         text-decoration: none;
-        :hover{
-            scale: 1.2;
-        }
-        .margen-pf{
-            margin-bottom: 3rem;
-        }
+    }
+    a:hover{
+        scale: 1.2;
+    }
+    .margen-pf{
+        margin-bottom: 3rem;
     }
 }
 
@@ -29,7 +29,7 @@
 
 /* -------------------------- Footer-------------------------- */
 footer{
-    background-color: #5e0d0d;
+    background-color: #941F1F;
     color: #ffffff;
     .alinear-footer{
         margin-top: 1rem;

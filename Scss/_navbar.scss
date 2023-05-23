@@ -1,5 +1,5 @@
 header{
-    background-color: #977b7b;
+    background-color: #D9D9D9;
     #logo{
         display: flex;
         justify-content: space-between;
@@ -10,7 +10,7 @@ header{
         }
     }
     .offcanvas{
-        background-color: #977b7b;
+        background-color: #D9D9D9;
         height: 100vh;
         width: 200px;
         left: 0;
@@ -24,16 +24,16 @@ header{
                 margin-right: 40px;
                 ul a{
                     text-decoration: none;
-                    color: #fff;
+                    color: #000;
                     font-size: 26px;
                     .primero{
                         margin-left: -35px;
                     }
                     
                 }
-            }
-            li:hover{
-                scale: 1.2;
+                :hover{
+                    scale: 1.2;
+                }
             }
         }
         #search-form {
@@ -44,7 +44,7 @@ header{
                 background-color: #E0E0E0;
             }
             #boton{
-                background-color: #977b7b;
+                background-color: #D9D9D9;
                 border: none;
             }
             .boton-nav{
@@ -59,35 +59,30 @@ header{
         }
         .iconos{
             float: right ;
-            
-            .bi-cart{
-                margin-top: 5px;
-                color: #fff;
-                margin-right: -205px;
-                float: right;
-                margin-bottom: 20px;
-            }
-            .bi-cart:hover{
-                scale: 1.2;
-            }
-            .bi-person{
-                margin-top: -70px;
-                color: #fff;
-                margin-right: -210px;
-                float: right;
-                margin-bottom: 20px;
-            }
-            .bi-person:hover{
-                scale: 1.2;
-            }
-            .bi-cart4{
-                margin-right: 10px;
-                float: right;
-            }
         }
     }
+    .bi-cart{
+        margin-top: 5px;
+        color: #000;
+        margin-right: -205px;
+        float: right;
+        margin-bottom: 20px;
+    }
+    .bi-cart:hover{
+        scale: 1.2;
+    }
+    .bi-person{
+        margin-top: -70px;
+        color: #000;
+        margin-right: -210px;
+        float: right;
+        margin-bottom: 20px;
+    }
+    .bi-person:hover{
+        scale: 1.2;
+    }
     header svg{
-        color: #fff;
+        color: #000;
     }
 }
 
@@ -102,7 +97,7 @@ header{
     scale: 1.2;
 }
 .linea{
-    background-color: rgb(94, 13, 13);
+    background-color: #941F1F;
     height: 10px;
     width: 98.9vw;
 }

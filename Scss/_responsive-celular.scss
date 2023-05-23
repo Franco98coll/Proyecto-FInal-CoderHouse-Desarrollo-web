@@ -3,30 +3,29 @@
         width: 150px;
         border-radius: 20px;
         background-color: #E0E0E0;
-    }
-    #search-icon{
-        display: block;
-        background-color: #977b7b;
-        ::content{
-            display:none;
-        }
+        display: none;
     }
     .primero{
         margin-top: 70px;
         margin-left: 0px;
+        
     }
-    
+    #boton{
+        background-color: #d9d9d9;
+        border: none;
+        margin-right: 15px;
+    }
     .iconos{
         display: flex;
         flex-direction: column-reverse;
         .bi-cart{
             margin-top: 20px;
-            margin-right: 85px;
+            margin-right: 15px;
             margin-bottom: 20px;
         }
         .bi-person{
             margin-top: 0px;
-            margin-right: 85px;
+            margin-right: 15px;
             margin-bottom: 20px;
         }
     }
@@ -45,6 +44,9 @@
         padding: 0;
         height: 300px;
         width: 100vw;
+    }
+    #mejores-productos{
+        margin-top: -5rem;
     }
     .owl-carousel .item {
         margin: 0;
@@ -65,7 +67,7 @@
         margin: 0 1rem 0 1rem;
     }
     .prefooter .container-fluid .row .col-sm-3{
-        background-color: #977b7b;
+        background-color: #ffefb9d0;
         height: 200px;
         display: flex;
         flex-direction: column;

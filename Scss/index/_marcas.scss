@@ -1,36 +1,40 @@
-.subtitulo-marcas{
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    color:#333;
-    font-size:30px;
-    font-weight: 800;
-    text-align:center;
+.marcas{
+    background-color: #d9d9d9;
+    .subtitulo-marcas{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        color:#333;
+        font-size:30px;
+        font-weight: 800;
+        text-align:center;
+    }
+    .imagenes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        #iron{
+            margin: 0 3rem 3rem 3rem;
+            width: 200px;
+        }
+        #g2{
+            margin: 0 3rem 3rem 3rem;
+            width: 100px;
+        }
+        #river{
+            margin: 0 3rem 3rem 3rem;
+            width: 150px;
+        }
+        #barca{
+            margin: 0 3rem 3rem 3rem;
+            height: 110px;
+        }
+        #kru{
+            margin: 0 3rem 3rem 3rem;
+            width: 100px;
+        }
+    }
 }
-.imagenes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    #iron{
-        margin: 0 3rem 3rem 3rem;
-        width: 200px;
-    }
-    #g2{
-        margin: 0 3rem 3rem 3rem;
-        width: 100px;
-    }
-    #river{
-        margin: 0 3rem 3rem 3rem;
-        width: 150px;
-    }
-    #barca{
-        margin: 0 3rem 3rem 3rem;
-        height: 110px;
-    }
-    #kru{
-        margin: 0 3rem 3rem 3rem;
-        width: 100px;
-    }
-}
+
