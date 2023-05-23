@@ -1,0 +1,121 @@
+.cuadrado{
+    width: 500px;
+    height: 650px;
+    background-color: #D9D9D9;
+    border: solid 10px #CE6B5D;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    margin-top: 0rem;
+    border-radius: 40px;
+    text-align: center;
+    
+    .formulario{
+        margin-top: 6rem;
+        input{
+            background-color: #A2A2A2;
+            width: 300px;
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+            margin-bottom: 1rem;
+            padding-left: 1rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #000;
+            box-shadow: 0px 5px 10px 0px #333;
+            &:focus{
+                outline: none;
+            }
+            &::placeholder{
+                text-align: center;
+                color: #000;
+                font-weight: 600;
+            }
+        }
+        label{
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #000;
+        }
+        button{
+            margin-top: 1rem;
+            font-weight: 600;
+            background-color: #A2A2A2;
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0px 5px 10px 0px #333;
+            &:hover{
+                scale: 1.1;
+            }
+        }
+    }
+    .lineas-login{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        hr{
+            justify-content: center;
+            color: #CE6B5D;
+        }
+        p{
+            font-weight: 600;
+            color: #CE6B5D;
+            font-size: 12px;
+            margin-top: 0.2rem;
+        }
+    }
+    .botones{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+        button{
+            background-color: #CE6B5D;
+            width: 100px;
+            height: 60px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0px 5px 10px 0px #333;
+            &:hover{
+                scale: 1.1;
+            }
+        }
+    }
+    .registrate{
+        margin-top: 3rem;
+        a{ 
+            text-decoration: none;
+            p{
+                font-weight: 600;
+                color: #CE6B5D;
+                font-size: 12px;
+                margin-top: 0.2rem;
+                &:hover{
+                    scale: 1.1;
+                }
+            }
+        }
+        }
+}
+.circulo{
+    box-shadow: 0px 10px 20px #333;
+    width: 200px;
+    height: 200px;
+    background-color: #CE6B5D;
+    border: solid 10px #CE6B5D;
+    margin: 0 auto;
+    margin-top: -3rem;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    svg{
+        width: 120px;
+        margin-top: 1.5rem;
+        color: #fff;
+    }
+}

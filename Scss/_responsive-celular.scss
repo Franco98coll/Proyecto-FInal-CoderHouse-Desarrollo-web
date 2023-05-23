@@ -1,10 +1,4 @@
 @media only screen and (max-width:767px){
-    #form{
-        width: 150px;
-        border-radius: 20px;
-        background-color: #E0E0E0;
-        display: none;
-    }
     .primero{
         margin-top: 70px;
         margin-left: 0px;
@@ -33,6 +27,12 @@
     #search-form {
         margin-top: 220px;
         float: right;
+        input{
+            width: 10px ;            
+            border-radius: 20px;
+            background-color: #E0E0E0;
+            display: none;
+        }
     }
     .linea{
         background-color: #941F1F;
@@ -147,4 +147,49 @@
     .btn-aac{
         margin: 0 0 5rem 2.8rem;
     }
+
+    /* ===================Login=================== */
+
+.cuadrado{
+    width: 300px;
+    .formulario{
+        input{
+            width: 220px;
+        }
+        label{
+            color: #000;
+            font-size: 20px;
+        }
+    }
+    .lineas-login{
+        hr{
+            width: 80px;
+            color: #CE6B5D;
+        }
+        p{
+            font-weight: 600;
+            color: #CE6B5D;
+            font-size: 12px;
+            margin-top: 0.5rem;
+        }
+    }
+    .botones{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+        button{
+            width: 70px;
+            height: 50px;
+        }
+    }
+}
+.circulo{
+    width: 140px;
+    height: 140px;
+    margin-top: -3rem;
+    svg{
+        width: 80px;
+        margin-top: 1.3rem;
+    }
+}
 }

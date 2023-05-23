@@ -4,51 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/main.css">
+    <title>Zapas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <meta name="description" content="Descubre zapatillas de moda y rendimiento. Encuentra el par perfecto que refleje tu estilo y te brinde comodidad duradera. ¡Compra ahora!">
+    <meta name="keywords" content="Zapatillas,Calzado,Moda,Deportivas,Diseño,Estilo,Marca,Comodidad,Tendencias,Colección,Hombres,Mujeres,Niños,Rendimiento,Casual,Elegante,Deportivo,Confort,Calidad,Ofertas">
+    <meta name="author" content="Franco Coll">
+
+    <!------------ OPEN GRAPH ------------>
+    <meta property="og:type" content="Tienda" />
+    <meta property="og:title" content="Zapas Calsado Deportivo" />
+    <meta property="og:description" content="Descubre zapatillas de moda y rendimiento. Encuentra el par perfecto que refleje tu estilo y te brinde comodidad duradera. ¡Compra ahora!"/>
+    <meta property="og:image" content="https://franco98coll.github.io/Proyecto-Final-CoderHouse-Desarrollo-web/img/Logo%20simplificado2.webp" />
+    <meta property="og:url" content="https://franco98coll.github.io/Proyecto-Final-CoderHouse-Desarrollo-web/"/>
+    <meta property="og:site_name" content="Zapas Calsado Deportivo" />
+    <meta property="og:locale" content="es_ES" />
+
+                                <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
+                                <!-- Boostrap-JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
+    <!-- Biblioteca de jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Biblioteca de OwlCarousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark offcanvas-start">
+        <nav class="navbar navbar-expand-lg  offcanvas-start">
             <div class="container-fluid">
-            <a id="logo" class="navbar-brand " href="/index.html"><img class="logo" src="/img/Logo simplificado2.png" alt=""></a>
+            <a id="logo" class="navbar-brand " href="./index.html"><img class="logo" src="./img/Logo simplificado2.webp" alt=""></a>
             
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
-            <div class="collapse offcanvas navbar-collapse " id="navbarNav">
+            <div class=" offcanvas navbar-collapse  " id="navbarNav">
                     
                 <ul class="navbar-nav ">
                 <li class="nav-item">
-                    <a class="nav-link active primero" aria-current="page" href="/Section.html">Mujer</a>
+                    <a class="nav-link active primero" aria-current="page" href="./Section.html">Mujer</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="/Section.html">Hombre</a>
+                    <a class="nav-link active" href="./Section.html">Hombre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="/Section.html">Niño</a>
+                    <a class="nav-link active" href="./Section.html">Niño</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="/Section.html">Deporte</a>
+                    <a class="nav-link active" href="./Section.html">Deporte</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="/Section.html">Casa</a>
+                    <a class="nav-link active" href="./Section.html">Casa</a>
                 </li>
                 </ul>
                 <div class="iconos ">
                     <div>
-                        <a href="/Login.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <a href="./Login.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                             <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
                         </svg></a>
                     </div>
                     
                     <div>
-                        <a href="/carrito.html"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <a href="./carrito.html"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
                             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
                         </svg></a>
                     </div>
@@ -63,18 +90,86 @@
                     </div>
                     
             </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    
-                </div>
-            </div>
+            
         </nav>     
     </header>
-    <main>
-
+    
+    <main >
+            <div>
+                <div class="linea-2"></div>
+                <div class="circulo">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                    </svg>
+                </div>
+            </div>
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="cuadrado">
+                            <form class="formulario" action="">
+                                <label for="usuario">Usuario</label>
+                                <br>
+                                <input  type="text" name="Usuario" required placeholder="Ej: Ignacio Gonzales">
+                                <br>
+                                <label for="Contraseña">Contraseña</label>
+                                <br>
+                                <input type="password" name="Contraseña" placeholder="**********" required>
+                                <br>
+                                <button>Entrar</button>
+                            </form>
+                            
+                            <div class="lineas-login">
+                                <div class="col-md-4"><hr></div>
+                            <div class="col-md-4"><p>O LOGUEARSE CON </p></div>
+                            <div class="col-md-4"><hr></div>
+                            </div>
+                            <div class="botones">
+                                <div class="col-md-4">
+                                    <button>
+                                        <a href="">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-google" viewBox="0 0 16 16">
+                                                <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+                                            </svg>
+                                        </a>
+                                    </button>
+                                </div>
+                                <div class="col-md-4">
+                                    <button>
+                                        <a href="">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-apple" viewBox="0 0 16 16">
+                                                <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                                                <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                                        </svg>
+                                        </a>
+                                    </button>
+                                </div>
+                                <div class="col-md-4">
+                                    <button>
+                                        <a href="">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="26"          height="26" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                        </svg>
+                                        </a>
+                                        
+                                    </button>
+                                </div>
+                                </div>
+                            <div class="registrate">
+                                <a href=""><p>¿NO ESTAS REGISTRADO? - CREAR CUENTA</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
-    </footer>
+    <script>
+        var searchIcon = document.getElementById("search-icon");
+        var searchForm = document.getElementById("search-form");
+        searchIcon.addEventListener("click", function() {
+        searchForm.classList.toggle("show");});
+    </script>
 </body>
 </html>

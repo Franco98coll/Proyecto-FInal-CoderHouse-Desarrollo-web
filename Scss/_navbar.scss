@@ -31,27 +31,27 @@ header{
                     }
                     
                 }
-                :hover{
+                &:hover{
                     scale: 1.2;
                 }
             }
         }
         #search-form {
             float: right;
-            #form{
-                width: 700px;
+            input{
+                width: 600px;
                 border-radius: 20px;
                 background-color: #E0E0E0;
             }
             #boton{
                 background-color: #D9D9D9;
                 border: none;
+                &:hover{
+                    scale: 1.2;
+                }
             }
             .boton-nav{
                 display: none;
-            }
-            #boton:hover{
-                scale: 1.2;
             }
             #search-form.show {
                 display: block;
@@ -67,20 +67,22 @@ header{
         margin-right: -205px;
         float: right;
         margin-bottom: 20px;
+        &:hover{
+            scale: 1.2;
+        }
     }
-    .bi-cart:hover{
-        scale: 1.2;
-    }
+
     .bi-person{
         margin-top: -70px;
         color: #000;
         margin-right: -210px;
         float: right;
         margin-bottom: 20px;
+        &:hover{
+            scale: 1.2;
+        }
     }
-    .bi-person:hover{
-        scale: 1.2;
-    }
+
     header svg{
         color: #000;
     }
@@ -97,6 +99,11 @@ header{
     scale: 1.2;
 }
 .linea{
+    background-color: #941F1F;
+    height: 10px;
+    width: 98.9vw;
+}
+.linea-2{
     background-color: #941F1F;
     height: 10px;
     width: 98.9vw;
