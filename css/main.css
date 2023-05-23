@@ -733,6 +733,9 @@ footer .alinear-footer {
     height: 300px;
     width: 100vw;
   }
+  .carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon {
+    display: none;
+  }
   #mejores-productos {
     margin-top: -5rem;
   }
@@ -758,8 +761,8 @@ footer .alinear-footer {
         -ms-flex-align: center;
             align-items: center;
   }
-  #redes svg {
-    margin: 0 1rem 0 1rem;
+  #redes a {
+    margin: 0 -1rem 0 -1rem;
   }
   .prefooter .container-fluid .row .col-sm-3 {
     background-color: rgba(255, 239, 185, 0.8156862745);
