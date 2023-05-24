@@ -10,10 +10,10 @@
         align-items: center;
         svg{
             margin: 0 3rem 0 3rem;
-            color: #941F1F;
-            :hover{
-                scale: 1.2;
-            }
+            
+        }
+        a:hover{
+            scale: 1.2;
         }
     }
 }
