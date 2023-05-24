@@ -705,7 +705,7 @@ footer .alinear-footer {
   margin-left: 2rem;
 }
 .producto-carrito svg {
-  margin-left: 33rem;
+  margin-left: 40rem;
   margin-top: 2rem;
 }
 .producto-carrito svg:hover {
@@ -1014,7 +1014,7 @@ footer .alinear-footer {
   }
   .producto-carrito svg {
     width: 20px;
-    margin-left: -2rem;
+    margin-left: 3rem;
   }
   .total {
     height: 8rem;
