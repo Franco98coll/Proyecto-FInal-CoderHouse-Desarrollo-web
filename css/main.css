@@ -1097,6 +1097,9 @@ a .cartita div h6 {
     width: 70px;
     height: 50px;
   }
+  .cuadrado .registrate a p:hover {
+    scale: 1.03;
+  }
   .circulo {
     width: 140px;
     height: 140px;

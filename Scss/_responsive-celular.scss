@@ -187,6 +187,16 @@
             height: 50px;
         }
     }
+    .registrate{
+        a{
+            p{
+                &:hover{
+                    scale: 1.03;
+                }
+            }
+            
+        }
+    }
 }
 .circulo{
     width: 140px;
