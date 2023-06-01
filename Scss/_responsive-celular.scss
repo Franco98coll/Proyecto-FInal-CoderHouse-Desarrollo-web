@@ -156,10 +156,13 @@
     /* ===================Login=================== */
 
 .cuadrado{
-    width: 300px;
+    width: 95%;
     .formulario{
         input{
             width: 220px;
+            &::placeholder{
+                font-size: 15px;
+            }
         }
         label{
             color: #000;

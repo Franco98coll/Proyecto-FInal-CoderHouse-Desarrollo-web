@@ -124,19 +124,16 @@ header header svg {
 .linea {
   background-color: #941F1F;
   height: 10px;
-  width: 98.9vw;
 }
 
 .linea-2 {
   background-color: #941F1F;
   height: 10px;
-  width: 98.9vw;
 }
 
 .linea-3 {
   background-color: #941F1F;
   height: 10px;
-  width: 98.8vw;
 }
 
 /*Carrusel*/
@@ -1066,10 +1063,25 @@ a .cartita div h6 {
   }
   /* ===================Login=================== */
   .cuadrado {
-    width: 300px;
+    width: 95%;
   }
   .cuadrado .formulario input {
     width: 220px;
+  }
+  .cuadrado .formulario input::-webkit-input-placeholder {
+    font-size: 15px;
+  }
+  .cuadrado .formulario input::-moz-placeholder {
+    font-size: 15px;
+  }
+  .cuadrado .formulario input:-ms-input-placeholder {
+    font-size: 15px;
+  }
+  .cuadrado .formulario input::-ms-input-placeholder {
+    font-size: 15px;
+  }
+  .cuadrado .formulario input::placeholder {
+    font-size: 15px;
   }
   .cuadrado .formulario label {
     color: #000;
