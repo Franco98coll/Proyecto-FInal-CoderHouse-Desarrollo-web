@@ -426,6 +426,7 @@ footer .alinear-footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-right: 2rem;
 }
 .descripciones .colores {
   display: -webkit-box;
@@ -501,7 +502,7 @@ footer .alinear-footer {
   margin: 2rem 0 0 1rem;
 }
 .descripciones .precio p {
-  margin: 2.3rem 0 0 1rem;
+  margin: 2.3rem 2rem 0 1rem;
   color: #5e0d0d;
 }
 .descripciones .btn-comprar {
@@ -1452,11 +1453,12 @@ a .cartita div h6 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 1rem 0 1rem 2.5rem;
+    margin: 1rem 0 2rem 2.5rem;
   }
   .alinear-productos .descripciones p {
+    font-size: 20px;
     width: auto;
-    margin: 0 0 1rem 2.5rem;
+    margin: 0 1rem 1rem 3.5rem;
   }
   .alinear-productos .descripciones .colores {
     display: -webkit-box;
@@ -1618,8 +1620,8 @@ a .cartita div h6 {
             flex-direction: column;
   }
   .fondo .error .texto {
-    top: 10vh;
-    left: 20%;
+    top: 15vh;
+    left: 28%;
   }
   .fondo .error .texto h1 {
     font-size: 100px;
@@ -1689,11 +1691,12 @@ a .cartita div h6 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 1rem 0 1rem 2.5em;
+    margin: 1rem 1rem 1rem 3.5rem;
   }
   .alinear-productos .descripciones p {
+    font-size: 18px;
     width: auto;
-    margin: 0 0 1rem 2.5rem;
+    margin: 0 1rem 1rem 3.5rem;
   }
   .alinear-productos .descripciones .colores {
     display: -webkit-box;
@@ -1742,10 +1745,10 @@ a .cartita div h6 {
   }
   .fondo .error .texto {
     top: 10vh;
-    left: 40%;
+    left: 30%;
   }
   .fondo .error .texto h1 {
-    font-size: 200px;
+    font-size: 80px;
   }
   .fondo .error .texto h2 {
     font-size: 20px;
