@@ -1,5 +1,7 @@
 /*Reset*/ 
 @import "_reset.scss";
+/*Variable*/ 
+@import "_variable.scss";
 /*Navbar*/ 
 @import "_navbar.scss";
 /*Carrusel*/ 
@@ -27,5 +29,9 @@
 /*Pagina de Section*/ 
 @import "_section.scss";
 
+/*Pagina de Error*/ 
+@import "_404.scss";
+
 /*Responsive*/ 
+@import "_responsive-tablet.scss";
 @import "_responsive-celular.scss";

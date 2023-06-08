@@ -1,4 +1,4 @@
-@media only screen and (max-width:767px){
+@media only screen and (max-width:900px){
     .primero{
         margin-top: 70px;
         margin-left: 0px;
@@ -91,13 +91,17 @@
 
     /* ===================Producto=================== */
     .alinear-productos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         .fotos-costado{
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
             img{
-                width: 30%;
+                width: 150px;
                 margin: 2rem 0 0 0.5rem;
             }
         }
@@ -107,7 +111,7 @@
             justify-content: center;
             align-items: center;
             img{
-                width: 85%;
+                width: 600px;
                 margin: 3rem 0 0 0rem;
             }
         }
@@ -116,12 +120,14 @@
             justify-content: center;
             margin: 0 0 1rem -3rem;
             h4{
+                font-size: 35px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin: 1rem 0 1rem 2.5rem;
+                margin: 1rem 0 1rem 2.5em;
             }
             p{
+                font-size: 25px;
                 width: auto;
                 margin: 0 0 1rem 2.5rem;
             }
@@ -131,6 +137,7 @@
                 margin: 0 0 1rem 2.5rem;
             }
             .btn-talles{
+                width: 200px;
                 margin: 0 0 3rem 2.5rem;
             }
             .precio{
@@ -152,19 +159,17 @@
                 margin: 0 0 5rem 2.8rem;
             }
         }
-        
     }
-    
 
     /* ===================Login=================== */
 
 .cuadrado{
-    width: 95%;
+    width: 70%;
     .formulario{
         input{
-            width: 220px;
+            width: 420px;
             &::placeholder{
-                font-size: 15px;
+                font-size: 20px;
             }
         }
         label{
@@ -180,7 +185,7 @@
         p{
             font-weight: 600;
             color: #CE6B5D;
-            font-size: 12px;
+            font-size: 15px;
             margin-top: 0.5rem;
         }
     }
@@ -189,7 +194,7 @@
         display: flex;
         justify-content: space-around;
         button{
-            width: 70px;
+            width: 120px;
             height: 50px;
         }
     }
@@ -278,8 +283,9 @@
             display: flex;
             flex-direction: column;
             .texto{
-                top: 10vh;
+                top: 30vh;
                 left: 20%;
+                right: 10%;
                 h1{
                     font-size: 100px;
                 }
@@ -290,7 +296,7 @@
                     font-size: 20px;
                 }
                 button{
-                    left: 35%;
+                    left: 43%;
                 }
             }
             
@@ -298,96 +304,3 @@
     }
     
 }
-@media only screen and (max-width:350px){
-    /* ===================Producto=================== */
-    .alinear-productos{
-        .fotos-costado{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            img{
-                width: 30%;
-                margin: 2rem 0 0 0.5rem;
-            }
-        }
-    
-        .foto-principal{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            img{
-                width: 85%;
-                margin: 3rem 0 0 0rem;
-            }
-        }
-        .descripciones{
-            display: flex;
-            justify-content: center;
-            margin: 0 0 1rem -3rem;
-            h4{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 1rem 0 1rem 2.5em;
-            }
-            p{
-                width: auto;
-                margin: 0 0 1rem 2.5rem;
-            }
-            .colores{
-                display: flex;
-                justify-content: center;
-                margin: 0 0 1rem 2.5rem;
-            }
-            .btn-talles{
-                margin: 0 0 3rem 2.5rem;
-            }
-            .precio{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                h5{
-                    margin: 0rem 0 2rem 3rem;
-                }
-                p{
-                    margin: 0rem 0 2rem 2rem;
-                }
-            }
-        
-            .btn-comprar{
-                margin: 0 0 1rem 2.8rem;
-            }
-            .btn-aac{
-                margin: 0 0 5rem 2.8rem;
-            }
-        }
-    }
-    
-    
-    /* ===================404=================== */
-    .fondo{
-        .error{
-            display: flex;
-            flex-direction: column;
-            .texto{
-                top: 10vh;
-                left: 40%;
-                h1{
-                    font-size: 200px;
-                }
-                h2{
-                    font-size: 20px;
-                }
-                p{
-                    font-size: 15px;
-                }
-                button{
-                    left: 35%;
-                }
-            }
-            
-        }
-    }
-    
-}   
