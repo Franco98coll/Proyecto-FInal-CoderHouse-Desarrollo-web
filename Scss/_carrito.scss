@@ -15,8 +15,9 @@
         margin-left: 2rem;
     }
     svg{
-        margin-left: 40rem;
-        margin-top: 2rem;
+        position: relative;
+        top: 2.5rem;
+        left: 48vw;
         &:hover{
             scale: 1.2;
         }
@@ -46,13 +47,15 @@
         color: #941F1F;
     }
     button{
-
-        margin: 1.2rem 1rem -2rem 46rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5rem 1rem -2rem 46rem;
         font-weight: 600;
         background-color: #941F1F;
         border: none;
         height: 40px;
-        padding: 0 1rem 0 1rem;
+        padding: 2rem 2rem 2rem 2rem;
         &:hover{
             scale: 1.1;
         }

@@ -700,8 +700,9 @@ footer .alinear-footer {
   margin-left: 2rem;
 }
 .producto-carrito svg {
-  margin-left: 40rem;
-  margin-top: 2rem;
+  position: relative;
+  top: 2.5rem;
+  left: 48vw;
 }
 .producto-carrito svg:hover {
   scale: 1.2;
@@ -735,12 +736,21 @@ footer .alinear-footer {
   color: #941F1F;
 }
 .total button {
-  margin: 1.2rem 1rem -2rem 46rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0.5rem 1rem -2rem 46rem;
   font-weight: 600;
   background-color: #941F1F;
   border: none;
   height: 40px;
-  padding: 0 1rem 0 1rem;
+  padding: 2rem 2rem 2rem 2rem;
 }
 .total button:hover {
   scale: 1.1;
@@ -799,6 +809,36 @@ a .cartita .mg svg:hover {
   scale: 1.1;
 }
 a .cartita .mg svg:active {
+  scale: 0.9;
+}
+a .cartita .mg-2 {
+  border: solid 1px #333;
+  background-color: #FFEFB9;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  position: relative;
+  top: -2rem;
+  left: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+a .cartita .mg-2 svg {
+  -webkit-filter: drop-shadow(0px 0px 2px #333);
+          filter: drop-shadow(0px 0px 2px #333);
+  color: white;
+}
+a .cartita .mg-2 svg:hover {
+  scale: 1.1;
+}
+a .cartita .mg-2 svg:active {
   scale: 0.9;
 }
 a .cartita img {
