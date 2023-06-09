@@ -686,6 +686,9 @@ footer .alinear-footer {
 
 /*Pagina de Carrito*/
 .producto-carrito {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #F0F0D8;
   margin: 1rem 0 0 0;
   display: -webkit-box;
@@ -699,16 +702,15 @@ footer .alinear-footer {
   width: 300px;
 }
 .producto-carrito h3 {
-  margin-left: 2rem;
+  margin-left: -25rem;
   margin-top: 2rem;
 }
 .producto-carrito h5 {
-  margin-left: 2rem;
+  margin-left: -25rem;
 }
 .producto-carrito svg {
-  position: relative;
-  top: 2.5rem;
-  left: 48vw;
+  margin-top: 1rem;
+  margin-right: 1rem;
 }
 .producto-carrito svg:hover {
   scale: 1.2;
@@ -1257,19 +1259,19 @@ a .cartita div h6 {
     width: 120px;
   }
   .producto-carrito h3 {
-    margin-left: 0.5rem;
+    margin-left: -17rem;
     font-size: 18px;
     margin-top: 1rem;
   }
   .producto-carrito h5 {
-    margin-left: 0.5rem;
+    margin-left: -17rem;
   }
   .producto-carrito svg {
     width: 20px;
     margin-left: 3rem;
   }
   .total {
-    height: 8rem;
+    height: 6rem;
     background-color: #FFEFB9;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1281,7 +1283,7 @@ a .cartita div h6 {
     margin: 1.5rem 0 0 1rem;
   }
   .total h5 {
-    margin: 1rem 2rem 0 3rem;
+    margin: 1.5rem 2rem 0 3rem;
     font-size: 25px;
     color: #941F1F;
   }
@@ -1292,12 +1294,12 @@ a .cartita div h6 {
   }
   .total button {
     position: relative;
-    margin: 5rem 0rem -2rem -11rem;
+    margin: 1rem 0rem -2rem 16rem;
     font-weight: 600;
     background-color: #941F1F;
     border: none;
     height: 40px;
-    padding: 0 1rem 0 1rem;
+    padding: 2rem 1rem 2rem 1rem;
   }
   .total button:hover {
     scale: 1.1;
@@ -1602,6 +1604,18 @@ a .cartita div h6 {
     margin-top: 1.3rem;
   }
   /* ===================Carrito=================== */
+  .producto-carrito {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   .producto-carrito img {
     width: 120px;
   }
@@ -1614,8 +1628,10 @@ a .cartita div h6 {
     margin-left: 0.5rem;
   }
   .producto-carrito svg {
-    width: 20px;
-    margin-left: 3rem;
+    top: 1rem;
+  }
+  .producto-carrito svg:hover {
+    scale: 1.2;
   }
   .total {
     height: 8rem;

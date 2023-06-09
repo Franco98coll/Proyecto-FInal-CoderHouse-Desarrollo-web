@@ -226,12 +226,12 @@
             width: 120px;
         }
         h3{
-            margin-left: 0.5rem;
+            margin-left: -17rem;
             font-size: 18px;
             margin-top: 1rem;
         }
         h5{
-            margin-left: 0.5rem;
+            margin-left: -17rem;
         }
         svg{
             width: 20px;
@@ -239,7 +239,7 @@
         }
     }
     .total{
-        height: 8rem;
+        height: 6rem;
         background-color: #FFEFB9;
         display: flex;
         text-align: center;
@@ -248,7 +248,7 @@
             margin: 1.5rem 0 0 1rem;
         }
         h5{
-            margin: 1rem 2rem 0 3rem;
+            margin: 1.5rem 2rem 0 3rem;
             font-size: 25px;
             color: #941F1F;
         }
@@ -259,12 +259,12 @@
         }
         button{
             position: relative;
-            margin: 5rem 0rem -2rem -11rem;
+            margin: 1rem 0rem -2rem 16rem;
             font-weight: 600;
             background-color: #941F1F;
             border: none;
             height: 40px;
-            padding: 0 1rem 0 1rem;
+            padding: 2rem 1rem 2rem 1rem;
             &:hover{
                 scale: 1.1;
             }

@@ -1,4 +1,5 @@
 .producto-carrito{
+    justify-content: space-between;
     background-color: #F0F0D8;
     margin: 1rem 0 0 0;
     display: flex;
@@ -8,16 +9,15 @@
         width: 300px;
     }
     h3{
-        margin-left: 2rem;
+        margin-left: -25rem;
         margin-top: 2rem;
     }
     h5{
-        margin-left: 2rem;
+        margin-left: -25rem;
     }
     svg{
-        position: relative;
-        top: 2.5rem;
-        left: 48vw;
+        margin-top: 1rem;
+        margin-right: 1rem;
         &:hover{
             scale: 1.2;
         }
