@@ -140,6 +140,7 @@ header header svg {
 
 /*Carrusel*/
 #carrusel-slogan {
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
