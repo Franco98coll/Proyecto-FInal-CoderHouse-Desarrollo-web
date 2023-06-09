@@ -66,6 +66,7 @@ header .offcanvas #search-form {
   float: right;
 }
 header .offcanvas #search-form input {
+  padding-left: 0.5rem;
   width: 600px;
   border-radius: 20px;
   background-color: #E0E0E0;
@@ -139,7 +140,6 @@ header header svg {
 
 /*Carrusel*/
 #carrusel-slogan {
-  overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
