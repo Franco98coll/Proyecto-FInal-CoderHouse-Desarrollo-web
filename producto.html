@@ -95,7 +95,7 @@
                 </div>
                 <div class="row alinear-productos">
                     <div class="col-lg-3 col-md-2 col-sm-3">
-                        <div class="fotos-costado">
+                        <div id="foto-costado" class="fotos-costado">
                             <img src="./img/zapas/roja.webp" alt="zapatilla nike jordan roja">
                             <img src="./img/zapas/roja.webp" alt="zapatilla nike jordan roja">
                             <img src="./img/zapas/roja.webp" alt="zapatilla nike jordan roja">
@@ -104,20 +104,21 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-2 col-sm-6">
-                        <div class="foto-principal">
-                            <img src="./img/zapas/roja.webp" alt="zapatilla nike jordan roja">
+                        <div id="foto-principal" class="foto-principal">
+                            <img  src="./img/zapas/roja.webp" alt="zapatilla nike jordan roja">
                         </div>
                     </div>
                     
                     <div class="col-lg-3 col-md-10 col-sm-3">
                         <div class="descripciones">
-                            <h4>Zapatilla para running</h4>
-                            <p>Presentamos las zapatillas deportivas de última generación, diseñadas para combinar estilo y rendimiento sin compromisos. Estas zapatillas son ideales para cualquier actividad física, desde entrenamientos intensos hasta paseos casuales por la ciudad. Con una construcción innovadora y materiales de primera calidad, estas zapatillas están diseñadas para ofrecerte la mejor experiencia posible.</p>
+                            <div id="titulo">
+                                
+                            </div>
                             <div class="colores">
-                                <a href="./producto.html"><div class="rojo"></div></a>
-                                <a href="./producto-azul.html"><div class="azul"></div></a>
-                                <a href="./producto-negro.html"><div class="negro"></div></a>
-                                <a href="./producto-blanco.html"><div class="blanco"></div></a>
+                                <div id="rojo" class="rojo"></div>
+                                <div id="azul"class="azul"></div>
+                                <div id="negro" class="negro"></div>
+                                <div id="blanco" class="blanco"></div>
                             </div>
                             <div class="desplegable">
                                 <div class="dropdown">
@@ -132,9 +133,8 @@
                                 </div>
                             </div>
                             
-                            <div class="precio">
-                                <h5>$20.000</h5>
-                                <p>6 cuotas sin interes de $3.333</p>
+                            <div id="precio" class="precio">
+                                
                             </div>
                             <button class="btn-comprar">COMPRAR</button>
                             <button class="btn-aac">AGREGAR AL CARRITO</button>
@@ -206,7 +206,10 @@
             </div>
         </div>
     </footer>
+    <script src="./js/cambiar-color.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="./js/bd.js"></script>
+<script src="./js/productos.js"></script>
 </body>
 
 </html>

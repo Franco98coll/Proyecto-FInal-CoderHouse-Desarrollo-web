@@ -765,11 +765,75 @@ footer .alinear-footer {
 }
 
 /*Pagina de Section*/
-a {
+span {
   text-decoration: none;
   color: #000000;
 }
-a .cartita {
+span .mg {
+  z-index: 1000;
+  border: solid 1px #333;
+  background-color: #FFEFB9;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  position: relative;
+  top: 5rem;
+  left: 15.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+span .mg .mg-rojo {
+  color: #941F1F;
+}
+span .mg svg {
+  -webkit-filter: drop-shadow(0px 0px 2px #333);
+          filter: drop-shadow(0px 0px 2px #333);
+  color: white;
+}
+span .mg svg:hover {
+  scale: 1.1;
+}
+span .mg svg:active {
+  scale: 0.9;
+}
+span .mg-2 {
+  border: solid 1px #333;
+  background-color: #FFEFB9;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  position: relative;
+  top: -2rem;
+  left: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+span .mg-2 svg {
+  -webkit-filter: drop-shadow(0px 0px 2px #333);
+          filter: drop-shadow(0px 0px 2px #333);
+  color: white;
+}
+span .mg-2 svg:hover {
+  scale: 1.1;
+}
+span .mg-2 svg:active {
+  scale: 0.9;
+}
+span .cartita {
   margin-left: 2rem;
   margin-top: 3rem;
   background-color: rgba(0, 0, 0, 0.2);
@@ -789,82 +853,23 @@ a .cartita {
   width: 250px;
   height: 320px;
 }
-a .cartita .mg {
-  border: solid 1px #333;
-  background-color: #FFEFB9;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  position: relative;
-  top: -4rem;
-  left: 7rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-a .cartita .mg svg {
-  -webkit-filter: drop-shadow(0px 0px 2px #333);
-          filter: drop-shadow(0px 0px 2px #333);
-  color: white;
-}
-a .cartita .mg svg:hover {
-  scale: 1.1;
-}
-a .cartita .mg svg:active {
-  scale: 0.9;
-}
-a .cartita .mg-2 {
-  border: solid 1px #333;
-  background-color: #FFEFB9;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  position: relative;
-  top: -2rem;
-  left: 7rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-a .cartita .mg-2 svg {
-  -webkit-filter: drop-shadow(0px 0px 2px #333);
-          filter: drop-shadow(0px 0px 2px #333);
-  color: white;
-}
-a .cartita .mg-2 svg:hover {
-  scale: 1.1;
-}
-a .cartita .mg-2 svg:active {
-  scale: 0.9;
-}
-a .cartita img {
-  margin-top: -2rem;
+span .cartita img {
+  margin-top: 0rem;
   margin-bottom: 1rem;
   width: 220px;
 }
-a .cartita div {
+span .cartita div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-a .cartita div h5 {
+span .cartita div h5 {
+  margin-left: 1rem;
   margin-right: 1rem;
   color: #941F1F;
   font-weight: 600;
 }
-a .cartita div h6 {
+span .cartita div h6 {
   margin-left: 1rem;
   font-weight: 600;
 }
@@ -873,7 +878,16 @@ a .cartita div h6 {
   margin-bottom: 2rem;
 }
 
-.botoncito {
+.r3 {
+  display: none;
+  margin-bottom: 2rem;
+}
+
+.r4 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.r4 .botoncito {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -884,7 +898,8 @@ a .cartita div h6 {
       -ms-flex-align: center;
           align-items: center;
 }
-.botoncito button {
+.r4 .botoncito button {
+  margin-top: 0rem;
   border-radius: 20px;
   padding: 0rem 2rem;
   border: none;
@@ -893,7 +908,7 @@ a .cartita div h6 {
   color: #fff;
   margin-bottom: 2rem;
 }
-.botoncito button:hover {
+.r4 .botoncito button:hover {
   scale: 1.1;
 }
 
@@ -1668,7 +1683,41 @@ a .cartita div h6 {
     scale: 1.1;
   }
   /* ===================Secciones=================== */
-  a .cartita {
+  span .mg {
+    z-index: 1000;
+    border: solid 1px #333;
+    background-color: #FFEFB9;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: relative;
+    top: 4rem;
+    left: 17rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  span .mg .mg-rojo {
+    color: #941F1F;
+  }
+  span .mg svg {
+    -webkit-filter: drop-shadow(0px 0px 2px #333);
+            filter: drop-shadow(0px 0px 2px #333);
+    color: white;
+  }
+  span .mg svg:hover {
+    scale: 1.1;
+  }
+  span .mg svg:active {
+    scale: 0.9;
+  }
+  span .cartita {
     margin: 2rem auto;
   }
   /* ===================404=================== */

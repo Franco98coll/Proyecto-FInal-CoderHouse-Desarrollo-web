@@ -1,7 +1,57 @@
-a{
+span{
     text-decoration: none;
     color: #000000;
-    
+    .mg{
+        z-index: 1000;
+        border: solid 1px #333;
+        background-color: #FFEFB9;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        position: relative;
+        top: 5rem;
+        left: 15.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .mg-rojo{
+            color: #941F1F;
+        }
+        svg{
+            filter: drop-shadow(0px 0px 2px #333);
+            color: white;
+            &:hover{
+                scale: 1.1;
+            }
+            &:active{
+                scale: 0.9;
+            }
+            
+        }
+    }
+    .mg-2{
+        border: solid 1px #333;
+        background-color: #FFEFB9;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        position: relative;
+        top: -2rem;
+        left: 7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg{
+            filter: drop-shadow(0px 0px 2px #333);
+            color: white;
+            &:hover{
+                scale: 1.1;
+            }
+            &:active{
+                scale: 0.9;
+            }
+        }
+    }
     .cartita{
         margin-left: 2rem;
         margin-top: 3rem;
@@ -12,61 +62,16 @@ a{
         align-items: center;
         width: 250px;
         height: 320px;
-        .mg{
-            border: solid 1px #333;
-            background-color: #FFEFB9;
-            width: 40px;
-            height: 40px;
-            border-radius: 50px;
-            position: relative;
-            top: -4rem;
-            left: 7rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            svg{
-                filter: drop-shadow(0px 0px 2px #333);
-                color: white;
-                &:hover{
-                    scale: 1.1;
-                }
-                &:active{
-                    scale: 0.9;
-                }
-            }
-        }
-        .mg-2{
-            border: solid 1px #333;
-            background-color: #FFEFB9;
-            width: 40px;
-            height: 40px;
-            border-radius: 50px;
-            position: relative;
-            top: -2rem;
-            left: 7rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            svg{
-                filter: drop-shadow(0px 0px 2px #333);
-                color: white;
-                &:hover{
-                    scale: 1.1;
-                }
-                &:active{
-                    scale: 0.9;
-                }
-            }
-        }
         
         img{
-            margin-top: -2rem;
+            margin-top: 0rem;
             margin-bottom: 1rem;
             width: 220px;
         }
         div{
             display: flex;
             h5{
+                margin-left: 1rem;
                 margin-right: 1rem;
                 color: #941F1F;
                 font-weight: 600;
@@ -81,20 +86,30 @@ a{
 .r2{
     margin-bottom: 2rem;
 }
-.botoncito{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    button{
-        border-radius: 20px;
-        padding: 0rem 2rem;
-        border: none;
-        background-color: #941F1F;
-        font-weight: 700;
-        color: #fff;
-        margin-bottom: 2rem;
-        &:hover{
-            scale: 1.1;
+.r3{
+    display: none;
+    margin-bottom: 2rem;
+}
+.r4{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    .botoncito{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            margin-top: 0rem;
+            border-radius: 20px;
+            padding: 0rem 2rem;
+            border: none;
+            background-color: #941F1F;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 2rem;
+            &:hover{
+                scale: 1.1;
+            }
         }
     }
 }
+
